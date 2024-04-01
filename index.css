@@ -7,10 +7,12 @@ nav{
     color: black;
     padding: 1.2em;
     border-radius: 1.2em 1.2em 1.2em 1.2em;
-    opacity: 60%;
+    
     border: 0.05em solid black;
     margin-top: 20px;
-    margin-left: 4em;  
+    margin-left: 4em;
+    margin-right: 4em;
+    opacity: 60%;
 }
 nav a{
     color: black;
@@ -28,6 +30,7 @@ nav ul{
 body{
     background-image: url("img/Fall_2016_Battle_Pass_Loading_Screen_III_16x9.webp");
     margin-bottom: 10em;
+    background-repeat: no-repeat;
 }
 footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -47,6 +50,10 @@ footer h1{
     font-size: 1.7em;
     font-weight: bold;
     margin-bottom: 0.5em;
+}
+footer img{
+    height: 3em;
+    width: 3em;
 }
 main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -87,9 +94,84 @@ main {
     color: black;
     margin: 1em;
 }
-.catalog ul li a:hover {
+.catalog a:hover {
 	background-color: gray; 
+    padding: 0.2em;
+    border-radius: 5em;
+    margin: 0.2em;
 }
 .logo a:hover {
 	background-color: gray;
+    padding: 0.2em;
+    border-radius: 5em;
 }
+.rasxodniki{
+    border: 0.15em solid black; 
+    padding: 1em; 
+    border-radius: 2em; 
+    background-color: whitesmoke; 
+    color: black;
+    margin: 1em;
+    width: 15em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.rasxodniki h1{
+    font-size: 1.3em;
+    color: green;
+    margin-left: 0.5em;
+}
+.yeei{
+    display: flex;
+    align-items: end;
+}
+.rasxodniki p{
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    
+}
+.salve{
+    display: none;
+}
+.sectionHeroes{
+    background-image: url("img/1618527672_48-p-fon-dota-2-48.jpg");
+}
+.sectionItems{
+    background-image: url("img/1618527672_48-p-fon-dota-2-48.jpg");
+}
+.strength img{
+    width: 5em;
+    height: 5em;
+    margin-bottom: -0.5em;
+    margin-top: 1em;
+}
+.strength{
+    border: 0.15em solid red; 
+    padding: 1em; 
+    border-radius: 2em; 
+    background-color:white; 
+    color: black;
+    margin: 1em;
+}
+a, u {
+    text-decoration: none;
+    color: black;
+  }
+  .strength h1{
+    font-size: 1.3em;
+    color: red;
+  }
+  .strentghHeroes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .geroii{
+    font-size: 1.5em;
+    color: gainsboro;
+  }
+  .predmeti{
+    font-size: 1.5em;
+    color: gainsboro;
+  }
